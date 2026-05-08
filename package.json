@@ -1,0 +1,15 @@
+{
+  "name": "fayintz-spotify-proxy",
+  "version": "1.0.0",
+  "description": "Spotify proxy for FayintxCode Admin",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
