@@ -9,8 +9,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // ─── CONFIG ──────────────────────────────────────
-const CLIENT_ID     = process.env.SPOTIFY_CLIENT_ID     || "YOUR_CLIENT_ID";
-const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET || "YOUR_CLIENT_SECRET";
+const CLIENT_ID     = process.env.SPOTIFY_CLIENT_ID     || "0c08fa4cfaac439ebfb41445527a5c73";
+const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET || "720e4cfc021840aca1db10c781a14ff0";
 // ─────────────────────────────────────────────────
 
 let tokenCache = { token: null, expiry: 0 };
